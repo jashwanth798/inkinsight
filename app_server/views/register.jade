@@ -1,0 +1,17 @@
+extends layout
+block content
+ #banner.page-header
+ .row
+ .col-md-6.col-sm-12
+
+ .row
+ .col-md-6.col-sm-12
+ form(action="/submit_review", method="POST")
+ br
+ label(for="name") Name :
+ input(type="text", id="name", name="name", required)
+ br
+ label(for="email") Email :
+ input(type="email", id="email", name="email", required)
+ br
+ input(type="submit", value="Submit")
