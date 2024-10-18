@@ -302,11 +302,11 @@ html {
 }
 
 body {
-  font-family: "Cabin", Arial, sans-serif;
+  font-family: inherit;
   font-size: 14px;
   line-height: 1.428571429;
   color: #ffffff;
-  background-color: #8D6E63;
+  background-color: #36476f;
 }
 
 input,
@@ -4699,8 +4699,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #ad1d28;
-  border-color: #911821;
+  background-color: #36868e;
+  border-color: #ffffff;
 }
 
 .navbar-default .navbar-brand {
@@ -5837,8 +5837,8 @@ a.list-group-item:focus {
 
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #ad1d28;
-  border-color: #ad1d28;
+  background-color: #6f6f6f;
+  border-color: #ffffff;
 }
 
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
@@ -7323,7 +7323,7 @@ legend {
 }
 
 .list-group-item {
-  background-color: #13a0aa;
+  background-color: #228dad8c;
 }
 
 .popover {

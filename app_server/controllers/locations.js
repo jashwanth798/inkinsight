@@ -7,23 +7,20 @@ module.exports.homelist = function (req, res) {
         },
         sidebar: "ink insight gives you location of the places where the books are found.",
         locations: [{
-            name: 'ikigai',
-            address: 'banjara-hills',
+            name: 'Change Agent',
+            address: 'Farzi cafe',
             rating: 5,
-            facilities: ['wifi','ambience','co-readers'],
-            distance: '20km'
+            facilities: ['wifi','ambience','food'],
         }, {
-            name: 'it ends with us',
-            address: 'secunderabad',
+            name: 'Never lie',
+            address: 'Roastery house Cafe',
             rating: 4,
-            facilities: ['wifi','ambience',],
-            distance: '15km'
+            facilities: ['food','ambience']
         }, {
-            name: 'Harry potter series',
-            address: 'LB-Nagar',
-            rating: 3,
-            facilities: ['wifi','ambience'],
-            distance: '14km'
+            name: 'Happy Place',
+            address: 'Maxibrew cafe',
+            rating: 4,
+            facilities: ['wifi','ambience']
         }]
     });
 };
